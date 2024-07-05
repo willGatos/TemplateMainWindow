@@ -13,7 +13,8 @@ import { CartProvider } from "context/CartContex";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
-);
+
+  );
 
 root.render(
   <CartProvider>
